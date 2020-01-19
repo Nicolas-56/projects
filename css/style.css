@@ -1,0 +1,66 @@
+html, body {
+    height: 100%;
+    background: #8d9abf;
+  }
+
+.content .data-users{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.data-users__table{
+    margin-top:20px;
+}
+
+.data-users__table .users-table{
+    margin: 0 auto;
+    font-size: 22px;
+    font-weight: bold;
+    width: 668px;
+    border: 1px solid
+    white;
+    padding: 10px;
+}
+
+.data-users__table .users-table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    width: 772px;
+    border: 2px solid
+    white;
+    padding: 10px;
+}
+
+.users-table td, .users-table th {
+    border: 1px solid white;
+}
+
+
+.form-field .form-input, .add{
+    padding: 5px;
+    font-size: 15px;
+}
+
+
+.data-users__table tr td {
+    padding: 5px;
+    font-size:16px;
+    color: white;
+}
+
+.data-users__table .delete{
+    cursor: pointer;
+    color: #0d0b0b;
+}
+ .add-user .form-field{
+     display: inline-block;
+ }
+.errors{
+     font-size: 20px;
+     color:black;
+     height: 25px;
+ }
